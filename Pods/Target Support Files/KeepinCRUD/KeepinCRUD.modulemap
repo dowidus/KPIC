@@ -1,0 +1,6 @@
+framework module KeepinCRUD {
+  umbrella header "KeepinCRUD-umbrella.h"
+
+  export *
+  module * { export * }
+}
