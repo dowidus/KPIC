@@ -558,7 +558,7 @@
 		047CB20A6769BB37165335D6B806F937 /* AEAD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEAD.swift; path = Sources/CryptoSwift/AEAD/AEAD.swift; sourceTree = "<group>"; };
 		0886BB8DB885E0A8E5936F754910CCE6 /* JOSEHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JOSEHeader.swift; path = JWTsSwift/Classes/JWS/JOSEHeader.swift; sourceTree = "<group>"; };
 		08AC67D70B82318B2B3076BAD0C60E1F /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = Classes/secp256k1/src/ecdsa.h; sourceTree = "<group>"; };
-		0A73D86D643730B6FD40FB3B1EC52766 /* Pods-KPIC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KPIC"; path = Pods_KPIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A73D86D643730B6FD40FB3B1EC52766 /* Pods_KPIC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0F010716C5470000818FE96EA960DE /* RSAKeyEncryptionMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSAKeyEncryptionMode.swift; path = JOSESwift/Sources/RSAKeyEncryptionMode.swift; sourceTree = "<group>"; };
 		0C7B9E58C741F53CB5DC57C234184771 /* lax_der_privatekey_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lax_der_privatekey_parsing.h; path = Classes/secp256k1/contrib/lax_der_privatekey_parsing.h; sourceTree = "<group>"; };
 		0CA36162E7D0948E2CE902FF47BE90E7 /* keccak-tiny.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "keccak-tiny.h"; path = "web3Swift-Ethereum/lib/keccak-tiny/keccak-tiny.h"; sourceTree = "<group>"; };
@@ -581,7 +581,7 @@
 		1968E5C9F14D6BE77D8CD994116F5835 /* BIP32Keystore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BIP32Keystore.swift; path = "web3Swift-Ethereum/sources/KeystoreManager/Classes/BIP32Keystore.swift"; sourceTree = "<group>"; };
 		1A11319C751453E7BBFBD931EBA98648 /* EthereumClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EthereumClient.swift; path = "web3Swift-Ethereum/sources/Client/EthereumClient.swift"; sourceTree = "<group>"; };
 		1A4E980FB9B8E1EB5DC5D34D347D5CE4 /* CryptoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoSwift.modulemap; sourceTree = "<group>"; };
-		1AF6308B290F22239CF4351DD7CDCFBC /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = secp256k1.c; path = Classes/secp256k1/src/secp256k1.c; sourceTree = "<group>"; };
+		1AF6308B290F22239CF4351DD7CDCFBC /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = secp256k1.c; path = Classes/secp256k1/src/secp256k1.c; sourceTree = "<group>"; };
 		1B4A780086B0BA60907F4D09C72D3FA1 /* RIPEMD160+StackOveflow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RIPEMD160+StackOveflow.swift"; path = "web3Swift-Ethereum/sources/Convenience/Classes/RIPEMD160+StackOveflow.swift"; sourceTree = "<group>"; };
 		1B5976CA27FA850446D5DBD10E18CC5E /* SipHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SipHash-dummy.m"; sourceTree = "<group>"; };
 		1C4ECA6430042656E7B473E609AC9265 /* ENSResolverContract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ENSResolverContract.swift; path = "web3Swift-Ethereum/sources/ENS/ENSResolverContract.swift"; sourceTree = "<group>"; };
@@ -599,7 +599,7 @@
 		22535AA9FFF925BA0E0C3636CB270017 /* RSASigner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSASigner.swift; path = JOSESwift/Sources/RSASigner.swift; sourceTree = "<group>"; };
 		22AA5821A54E4E3AE721517E859533CE /* BIP39.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BIP39.swift; path = "web3Swift-Ethereum/sources/KeystoreManager/Classes/BIP39.swift"; sourceTree = "<group>"; };
 		22C29C37E9C28F95278385FC244D89AD /* JWTsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWTsSwift.release.xcconfig; sourceTree = "<group>"; };
-		22EA7C88CF6845B234AA0C24CB67533B /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_privatekey_parsing.c; path = Classes/secp256k1/contrib/lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
+		22EA7C88CF6845B234AA0C24CB67533B /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lax_der_privatekey_parsing.c; path = Classes/secp256k1/contrib/lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
 		2332EE86524C141F0501D55A1CD559E2 /* JWTsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWTsSwift-umbrella.h"; sourceTree = "<group>"; };
 		235A6C7B4A828484017260E7294F228D /* JWKSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWKSet.swift; path = JOSESwift/Sources/JWKSet.swift; sourceTree = "<group>"; };
 		242AD518F4C39BFB58E228C01641F481 /* EthereumNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EthereumNetwork.swift; path = "web3Swift-Ethereum/sources/Client/Models/EthereumNetwork.swift"; sourceTree = "<group>"; };
@@ -641,7 +641,7 @@
 		3649F96A4C2296F751C7F0FD743DBCB6 /* JOSESwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JOSESwift-umbrella.h"; sourceTree = "<group>"; };
 		36A9B7B40D9CC2F13D95046011EF7476 /* JWKParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWKParameters.swift; path = JOSESwift/Sources/JWKParameters.swift; sourceTree = "<group>"; };
 		36CD3D3A6D352479765D2ADA748790E7 /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = sources/Subtraction.swift; sourceTree = "<group>"; };
-		37C8C2CF49A02F27FC3541B2F19A6A9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		37C8C2CF49A02F27FC3541B2F19A6A9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		37E27A6C804670E0308D6D0F18149FF0 /* PBE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBE.swift; path = "web3Swift-Ethereum/sources/Client/PBE.swift"; sourceTree = "<group>"; };
 		385FBE79F7F0F8A8F7F38C97E6836E49 /* eckey_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eckey_impl.h; path = Classes/secp256k1/src/eckey_impl.h; sourceTree = "<group>"; };
 		397F9D3CB7B6E3F6E0F48A2073FE6411 /* PBKDF2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF2.swift; path = Sources/CryptoSwift/PKCS/PBKDF2.swift; sourceTree = "<group>"; };
@@ -677,7 +677,7 @@
 		4EF2F760496B34501A7B0EC55E0A0739 /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
 		4F09ABC1CE3CECF4678A171A7753CEE5 /* KeepinCRUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeepinCRUD-prefix.pch"; sourceTree = "<group>"; };
 		520BEFB674BC3E3D5B01CEC9D444E76C /* ABIFunctionEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABIFunctionEncoder.swift; path = "web3Swift-Ethereum/sources/Contract/Statically Typed/ABIFunctionEncoder.swift"; sourceTree = "<group>"; };
-		5280F0F64AB258ED83F9F7069D9747A3 /* KeepinCRUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KeepinCRUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5280F0F64AB258ED83F9F7069D9747A3 /* KeepinCRUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KeepinCRUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52DB8FC7729593BDFC41986824FF7399 /* PBKDF1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF1.swift; path = Sources/CryptoSwift/PKCS/PBKDF1.swift; sourceTree = "<group>"; };
 		52E62B806BAD4DAB8471215ABD3F5388 /* JOSESwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JOSESwift.release.xcconfig; sourceTree = "<group>"; };
 		534D1ADE2D10C0C0CEB6A261DA70152F /* ABIEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABIEncoder.swift; path = "web3Swift-Ethereum/sources/Contract/ABIEncoder.swift"; sourceTree = "<group>"; };
@@ -731,8 +731,8 @@
 		6CF50DA463DFBAB2E669B39EBDA616E8 /* RandomUInt64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomUInt64.swift; path = SipHash/RandomUInt64.swift; sourceTree = "<group>"; };
 		6E0C7FB067A4569361E3768B441C4A98 /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "Sources/CryptoSwift/Int+Extension.swift"; sourceTree = "<group>"; };
 		6E2D0B01F9DDC08A363BFB812FA9F37C /* Compressor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compressor.swift; path = JOSESwift/Sources/Compressor.swift; sourceTree = "<group>"; };
-		6E30E77C43BE778A019D7ED880BB5985 /* SwiftRLP */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftRLP; path = SwiftRLP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E71D2EBEF08C3DE4495A72B7D4A08CA /* JWTsSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWTsSwift; path = JWTsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E30E77C43BE778A019D7ED880BB5985 /* SwiftRLP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftRLP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E71D2EBEF08C3DE4495A72B7D4A08CA /* JWTsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JWTsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1EBB93AF567A90B0D70191F798BFB0 /* SipHash-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SipHash-Info.plist"; sourceTree = "<group>"; };
 		6F5E959257C80CB0DDCE0A90F3BA583B /* HMACVerifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMACVerifier.swift; path = JOSESwift/Sources/HMACVerifier.swift; sourceTree = "<group>"; };
 		703F53D603AEBBB87D226B1BF6583792 /* JWTsSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWTsSwift-dummy.m"; sourceTree = "<group>"; };
@@ -740,7 +740,7 @@
 		720B4E9730FDB5226CDD02FF99167585 /* JWTsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWTsSwift.debug.xcconfig; sourceTree = "<group>"; };
 		7280B5883982D7A91D114866705AE508 /* ABIDecoder+JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ABIDecoder+JSON.swift"; path = "web3Swift-Ethereum/sources/Contract/JSON Definition/ABIDecoder+JSON.swift"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73118FC3970634E9529A43DE8C1E6E69 /* VerifiableSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VerifiableSwift; path = VerifiableSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73118FC3970634E9529A43DE8C1E6E69 /* VerifiableSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VerifiableSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A31A52320A9C23889EE10D72E2B7BE /* eckey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eckey.h; path = Classes/secp256k1/src/eckey.h; sourceTree = "<group>"; };
 		761E7C69840643095F60F157C42181E9 /* KeystoreUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeystoreUtil.swift; path = "web3Swift-Ethereum/sources/Utils/KeystoreUtil.swift"; sourceTree = "<group>"; };
 		76A3B5143EF8B97C57A5FC35626D06CA /* web3iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "web3iOS-prefix.pch"; sourceTree = "<group>"; };
@@ -766,7 +766,7 @@
 		833BF6E56212366D86E0B9682FE991C3 /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
 		83A745F709ECFA4A9A2891A378013B4C /* JWE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWE.swift; path = JOSESwift/Sources/JWE.swift; sourceTree = "<group>"; };
 		84073CD234933CD2B361CE76540430A1 /* RSAVerifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSAVerifier.swift; path = JOSESwift/Sources/RSAVerifier.swift; sourceTree = "<group>"; };
-		84D2E53624850063818F6299973EE893 /* JOSESwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JOSESwift; path = JOSESwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D2E53624850063818F6299973EE893 /* JOSESwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JOSESwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E0C8EA43729340A50A0BEC602207C4 /* ERC20Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ERC20Functions.swift; path = "web3Swift-Ethereum/sources/ERC20/ERC20Functions.swift"; sourceTree = "<group>"; };
 		84EE1ABF3165F72A5E5D035BC685BCA8 /* BigInt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.release.xcconfig; sourceTree = "<group>"; };
 		852034378CCFEC043729386630D7A448 /* MercariQRScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MercariQRScanner.modulemap; sourceTree = "<group>"; };
@@ -790,13 +790,13 @@
 		8D44BAFB02D4EF5C783AEE7B624B585A /* KeepinCRUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeepinCRUD.release.xcconfig; sourceTree = "<group>"; };
 		8E260E5911EE80CA840B3233B1C5EA87 /* DataSymmetricKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataSymmetricKey.swift; path = JOSESwift/Sources/CryptoImplementation/DataSymmetricKey.swift; sourceTree = "<group>"; };
 		8EBE6D9769C684C4BD099927F5CF2D59 /* ABIRawType+JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ABIRawType+JSON.swift"; path = "web3Swift-Ethereum/sources/Contract/JSON Definition/ABIRawType+JSON.swift"; sourceTree = "<group>"; };
-		8FACD2E7CBA8D5CF86E218D4BCCCB476 /* EthereumAddress */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EthereumAddress; path = EthereumAddress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FACD2E7CBA8D5CF86E218D4BCCCB476 /* EthereumAddress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EthereumAddress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDBC67309CA2CE08CF7541B66405587 /* Integer Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer Conversion.swift"; path = "sources/Integer Conversion.swift"; sourceTree = "<group>"; };
 		8FE8B4458119442D60357AAB2CDE7185 /* ERC20Responses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ERC20Responses.swift; path = "web3Swift-Ethereum/sources/ERC20/ERC20Responses.swift"; sourceTree = "<group>"; };
 		906732A5C0E1AE1D987B7100C85FC490 /* PKCS7Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7Padding.swift; path = Sources/CryptoSwift/PKCS/PKCS7Padding.swift; sourceTree = "<group>"; };
-		915361CF4F5BEB9ECA5F7A89DAE63096 /* MercariQRScanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MercariQRScanner; path = MercariQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		915361CF4F5BEB9ECA5F7A89DAE63096 /* MercariQRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MercariQRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		918273C9137B300D06AD86640259D6C7 /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = sources/Comparable.swift; sourceTree = "<group>"; };
-		91BB24BA472AF523E913108C9AA301F2 /* BigInt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigInt; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F59C018238E7862B3A8F43514306D1 /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = sources/Exponentiation.swift; sourceTree = "<group>"; };
 		92DACB8BD7B4540007089AB2C1D1B088 /* AesUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AesUtil.swift; path = "web3Swift-Ethereum/sources/Utils/AesUtil.swift"; sourceTree = "<group>"; };
 		93AF975241B0A881AA55CBB46F9A9B34 /* EthereumAddress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EthereumAddress-umbrella.h"; sourceTree = "<group>"; };
@@ -808,11 +808,11 @@
 		99776EA7DF6077D08B9A0CC5CAAEB919 /* VerifiableSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VerifiableSwift-prefix.pch"; sourceTree = "<group>"; };
 		99EE571D8952BF38D82B8E6C37B5FABF /* SipHash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SipHash.debug.xcconfig; sourceTree = "<group>"; };
 		99F7C1A6E5DF284E96C566844AA3E2C0 /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
-		9A022794F9B0CF94FC78919ECF13A1D6 /* web3iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = web3iOS; path = web3Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A022794F9B0CF94FC78919ECF13A1D6 /* web3Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = web3Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADD42250A947EBF9AE1AC00889CE1DB /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = JWTsSwift/Classes/JWT/JWT.swift; sourceTree = "<group>"; };
 		9B2434FD3AE55DE6E8675D48FE55EF3B /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
 		9D079B794ACB46854817B37F86BA6BDC /* lax_der_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lax_der_parsing.h; path = Classes/secp256k1/contrib/lax_der_parsing.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB6CD23173CCE4EFD315A86BA846838 /* SECP256K1+ECDSA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SECP256K1+ECDSA.swift"; path = "JWTsSwift/Classes/Crypto/SECP256K1+ECDSA.swift"; sourceTree = "<group>"; };
 		9DBE552D76546CD1EC67619E58D5EEFD /* CCM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCM.swift; path = Sources/CryptoSwift/BlockMode/CCM.swift; sourceTree = "<group>"; };
 		9E45C375A6C651752C8D3ED321635589 /* ECDSASigner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECDSASigner.swift; path = JWTsSwift/Classes/Crypto/ECDSASigner.swift; sourceTree = "<group>"; };
@@ -822,9 +822,9 @@
 		A181E66FDA734AAF63C27ED3CBB4051C /* scrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scrypt.h; path = "web3Swift-Ethereum/lib/scrypt/scrypt.h"; sourceTree = "<group>"; };
 		A1E474133E1B6EE23EC2B412B3454824 /* HexExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexExtensions.swift; path = "web3Swift-Ethereum/sources/Extensions/HexExtensions.swift"; sourceTree = "<group>"; };
 		A1EE77EE6E95DBD98DA5281DB516F285 /* num_gmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_gmp.h; path = Classes/secp256k1/src/num_gmp.h; sourceTree = "<group>"; };
-		A2111396C1985EBD1171FE7B023FBE24 /* SipHash */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SipHash; path = SipHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2111396C1985EBD1171FE7B023FBE24 /* SipHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SipHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A460CB091F33649E42D64BD99FA5DC /* EthereumClient+Static.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EthereumClient+Static.swift"; path = "web3Swift-Ethereum/sources/Contract/Statically Typed/EthereumClient+Static.swift"; sourceTree = "<group>"; };
-		A327B82DC5D5A82A07FD56CF698530FB /* secp256k1_swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = secp256k1_swift; path = secp256k1_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A327B82DC5D5A82A07FD56CF698530FB /* secp256k1_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = secp256k1_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A349AE751E241BD78163D79908D8207A /* SecKeyRSAPublicKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecKeyRSAPublicKey.swift; path = JOSESwift/Sources/CryptoImplementation/SecKeyRSAPublicKey.swift; sourceTree = "<group>"; };
 		A48288177DC0A742DF085FD73E503435 /* BIP32HDNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BIP32HDNode.swift; path = "web3Swift-Ethereum/sources/KeystoreManager/Classes/BIP32HDNode.swift"; sourceTree = "<group>"; };
 		A5AA6ECB582974B909C3F507020027FC /* EthereumAddress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EthereumAddress.release.xcconfig; sourceTree = "<group>"; };
@@ -912,7 +912,7 @@
 		D42ED6E2E0B7568695468133C786126E /* EthereumAddress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EthereumAddress.modulemap; sourceTree = "<group>"; };
 		D46E25290D48665608BDCE639A1E384F /* EthereumAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EthereumAddress.swift; path = EthereumAddress/Classes/EthereumAddress.swift; sourceTree = "<group>"; };
 		D49CB15C242F0EAF1649909FE1092760 /* JOSESwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JOSESwift-prefix.pch"; sourceTree = "<group>"; };
-		D53D5C45D20B538CD69D73D3D37E425B /* aes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aes.c; path = "web3Swift-Ethereum/lib/aes/aes.c"; sourceTree = "<group>"; };
+		D53D5C45D20B538CD69D73D3D37E425B /* aes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aes.c; path = "web3Swift-Ethereum/lib/aes/aes.c"; sourceTree = "<group>"; };
 		D5B43678A0EAEC405020B3FBE1FAF7EA /* Cryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptor.swift; path = Sources/CryptoSwift/Cryptor.swift; sourceTree = "<group>"; };
 		D6E358BF295C6CDDC77025DEA0011D77 /* KeepinCRUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeepinCRUD.debug.xcconfig; sourceTree = "<group>"; };
 		D86B12445F27E92AD1C8798402E797AC /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
@@ -972,14 +972,14 @@
 		F7CBB1A76C68E2BF968ED40AD551E69B /* Bundle+Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Module.swift"; path = "QRScanner/Bundle+Module.swift"; sourceTree = "<group>"; };
 		F7D933925D5BBD884C4DD20555F92710 /* JWSSigner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWSSigner.swift; path = JWTsSwift/Classes/Crypto/JWSSigner.swift; sourceTree = "<group>"; };
 		F810195426F15E16D1399BC24F95D48A /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
-		F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoSwift; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F9985AD1B923A8310EB34FC977094C /* scratch_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scratch_impl.h; path = Classes/secp256k1/src/scratch_impl.h; sourceTree = "<group>"; };
-		F9498EA924F7D051DE099067456CD8B0 /* keccak-tiny.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "keccak-tiny.c"; path = "web3Swift-Ethereum/lib/keccak-tiny/keccak-tiny.c"; sourceTree = "<group>"; };
-		F97CFA24E35A79174380EEB81C9723C8 /* Cimpl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Cimpl.c; path = "web3Swift-Ethereum/lib/scrypt/Cimpl.c"; sourceTree = "<group>"; };
+		F9498EA924F7D051DE099067456CD8B0 /* keccak-tiny.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "keccak-tiny.c"; path = "web3Swift-Ethereum/lib/keccak-tiny/keccak-tiny.c"; sourceTree = "<group>"; };
+		F97CFA24E35A79174380EEB81C9723C8 /* Cimpl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Cimpl.c; path = "web3Swift-Ethereum/lib/scrypt/Cimpl.c"; sourceTree = "<group>"; };
 		F9F6152A8CF87261FCCE05329B1BCCBA /* MercariQRScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MercariQRScanner-dummy.m"; sourceTree = "<group>"; };
 		F9F9B981B91FFE544CCE2A7FA0AD38FB /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = Sources/CryptoSwift/CompactMap.swift; sourceTree = "<group>"; };
 		FAD3963CD55DAFC83304EF911796C923 /* num_gmp_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_gmp_impl.h; path = Classes/secp256k1/src/num_gmp_impl.h; sourceTree = "<group>"; };
-		FAE8A7FA9F001571BBE2ACEC39314914 /* lax_der_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_parsing.c; path = Classes/secp256k1/contrib/lax_der_parsing.c; sourceTree = "<group>"; };
+		FAE8A7FA9F001571BBE2ACEC39314914 /* lax_der_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lax_der_parsing.c; path = Classes/secp256k1/contrib/lax_der_parsing.c; sourceTree = "<group>"; };
 		FC709709A45A83D2EAEA8E5B6DEFFBAD /* num.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num.h; path = Classes/secp256k1/src/num.h; sourceTree = "<group>"; };
 		FCD1F8C43F31E1D72D23AD5264DA63DF /* secp256k1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = secp256k1.swift; path = Classes/secp256k1.swift; sourceTree = "<group>"; };
 		FDCAB85BE9246B795E7E7656643D8611 /* KeyDerivation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyDerivation.swift; path = "web3Swift-Ethereum/sources/Utils/KeyDerivation.swift"; sourceTree = "<group>"; };
@@ -1119,7 +1119,6 @@
 				5DBF983F71AACAA840571217E2DD3230 /* SipHasher.swift */,
 				177254E5CA40DD85EB4705147FD4FF64 /* Support Files */,
 			);
-			name = SipHash;
 			path = SipHash;
 			sourceTree = "<group>";
 		};
@@ -1244,7 +1243,6 @@
 				E040E8C63EFE746AE5AA81731B8AFACA /* Verifier.swift */,
 				97E72F89492411675C746A4650D13406 /* Support Files */,
 			);
-			name = JOSESwift;
 			path = JOSESwift;
 			sourceTree = "<group>";
 		};
@@ -1330,7 +1328,6 @@
 				31131D31D5FF11F0D3BD78CA6F12F94D /* ZeroPadding.swift */,
 				004113827D9B5B555DD2136DB8411550 /* Support Files */,
 			);
-			name = CryptoSwift;
 			path = CryptoSwift;
 			sourceTree = "<group>";
 		};
@@ -1360,19 +1357,19 @@
 		5BC3745881FF4DC09187194C66C68EB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91BB24BA472AF523E913108C9AA301F2 /* BigInt */,
-				F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */,
-				8FACD2E7CBA8D5CF86E218D4BCCCB476 /* EthereumAddress */,
-				84D2E53624850063818F6299973EE893 /* JOSESwift */,
-				6E71D2EBEF08C3DE4495A72B7D4A08CA /* JWTsSwift */,
+				91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */,
+				F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift.framework */,
+				8FACD2E7CBA8D5CF86E218D4BCCCB476 /* EthereumAddress.framework */,
+				84D2E53624850063818F6299973EE893 /* JOSESwift.framework */,
+				6E71D2EBEF08C3DE4495A72B7D4A08CA /* JWTsSwift.framework */,
 				EC59E0CF143F4D231AF8EA679A328756 /* KeepinCRUD */,
-				915361CF4F5BEB9ECA5F7A89DAE63096 /* MercariQRScanner */,
-				0A73D86D643730B6FD40FB3B1EC52766 /* Pods-KPIC */,
-				A327B82DC5D5A82A07FD56CF698530FB /* secp256k1_swift */,
-				A2111396C1985EBD1171FE7B023FBE24 /* SipHash */,
-				6E30E77C43BE778A019D7ED880BB5985 /* SwiftRLP */,
-				73118FC3970634E9529A43DE8C1E6E69 /* VerifiableSwift */,
-				9A022794F9B0CF94FC78919ECF13A1D6 /* web3iOS */,
+				915361CF4F5BEB9ECA5F7A89DAE63096 /* MercariQRScanner.framework */,
+				0A73D86D643730B6FD40FB3B1EC52766 /* Pods_KPIC.framework */,
+				A327B82DC5D5A82A07FD56CF698530FB /* secp256k1_swift.framework */,
+				A2111396C1985EBD1171FE7B023FBE24 /* SipHash.framework */,
+				6E30E77C43BE778A019D7ED880BB5985 /* SwiftRLP.framework */,
+				73118FC3970634E9529A43DE8C1E6E69 /* VerifiableSwift.framework */,
+				9A022794F9B0CF94FC78919ECF13A1D6 /* web3Swift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1415,7 +1412,6 @@
 				7F070B0443E4D300CA6C321123BF7288 /* Extensions.swift */,
 				35E555FEED66EB3187AA50ACB547BA5C /* Support Files */,
 			);
-			name = EthereumAddress;
 			path = EthereumAddress;
 			sourceTree = "<group>";
 		};
@@ -1565,7 +1561,6 @@
 				8BD5894E8C6B6395FBC2CADC7D6D53FB /* Web3Utils.swift */,
 				FA823F6ECC9F5CBCE67BEEBD2CE31B7F /* Support Files */,
 			);
-			name = web3iOS;
 			path = web3iOS;
 			sourceTree = "<group>";
 		};
@@ -1593,7 +1588,6 @@
 				D2322AB211AEFC017E89C60E2C0AD39E /* SwiftRLP.h */,
 				7696BBC1C2C09080A247540340ADF97E /* Support Files */,
 			);
-			name = SwiftRLP;
 			path = SwiftRLP;
 			sourceTree = "<group>";
 		};
@@ -1639,7 +1633,6 @@
 				FF7EB693A142F85E1A7C7CF1D07B227B /* Words and Bits.swift */,
 				B56C842A4AF905CB64157FA152400948 /* Support Files */,
 			);
-			name = BigInt;
 			path = BigInt;
 			sourceTree = "<group>";
 		};
@@ -1707,7 +1700,6 @@
 				7F7830A0CFE58FC43123C3EB7844DE51 /* util.h */,
 				5A1CE28D062147B29865F6F0DE7C7F9F /* Support Files */,
 			);
-			name = secp256k1_swift;
 			path = secp256k1_swift;
 			sourceTree = "<group>";
 		};
@@ -1735,7 +1727,6 @@
 				6A7C9125B183C1A1FEED94CD66D291F7 /* Resources */,
 				5F7CAA55E2EAAB98319C5D420AC4E5B1 /* Support Files */,
 			);
-			name = MercariQRScanner;
 			path = MercariQRScanner;
 			sourceTree = "<group>";
 		};
@@ -1809,7 +1800,6 @@
 				9DB6CD23173CCE4EFD315A86BA846838 /* SECP256K1+ECDSA.swift */,
 				7FD5E91C804956010670A59A4D86B5B9 /* Support Files */,
 			);
-			name = JWTsSwift;
 			path = JWTsSwift;
 			sourceTree = "<group>";
 		};
@@ -1838,7 +1828,6 @@
 				E6E77958BFCE0F7FD0E2A52CE7AE43DF /* VerifiableSignVerifier.swift */,
 				BE160D8ECC513007F2006F206B605D8D /* Support Files */,
 			);
-			name = VerifiableSwift;
 			path = VerifiableSwift;
 			sourceTree = "<group>";
 		};
@@ -2022,7 +2011,7 @@
 			);
 			name = EthereumAddress;
 			productName = EthereumAddress;
-			productReference = 8FACD2E7CBA8D5CF86E218D4BCCCB476 /* EthereumAddress */;
+			productReference = 8FACD2E7CBA8D5CF86E218D4BCCCB476 /* EthereumAddress.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		09DD83B7D075842A3A5105AD410BD38A /* BigInt */ = {
@@ -2041,7 +2030,7 @@
 			);
 			name = BigInt;
 			productName = BigInt;
-			productReference = 91BB24BA472AF523E913108C9AA301F2 /* BigInt */;
+			productReference = 91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		377DAE4050D766B30C3A484B8525BB35 /* SipHash */ = {
@@ -2059,7 +2048,7 @@
 			);
 			name = SipHash;
 			productName = SipHash;
-			productReference = A2111396C1985EBD1171FE7B023FBE24 /* SipHash */;
+			productReference = A2111396C1985EBD1171FE7B023FBE24 /* SipHash.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3D875D5B2A0B02BF6B6224B9A2A9F7B2 /* SwiftRLP */ = {
@@ -2078,7 +2067,7 @@
 			);
 			name = SwiftRLP;
 			productName = SwiftRLP;
-			productReference = 6E30E77C43BE778A019D7ED880BB5985 /* SwiftRLP */;
+			productReference = 6E30E77C43BE778A019D7ED880BB5985 /* SwiftRLP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5CA9478DC9AA7B210F21B5AEDBEC021F /* web3iOS */ = {
@@ -2101,7 +2090,7 @@
 			);
 			name = web3iOS;
 			productName = web3Swift;
-			productReference = 9A022794F9B0CF94FC78919ECF13A1D6 /* web3iOS */;
+			productReference = 9A022794F9B0CF94FC78919ECF13A1D6 /* web3Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		674FDFDEB40835621D833AF8EBA35016 /* secp256k1_swift */ = {
@@ -2119,7 +2108,7 @@
 			);
 			name = secp256k1_swift;
 			productName = secp256k1_swift;
-			productReference = A327B82DC5D5A82A07FD56CF698530FB /* secp256k1_swift */;
+			productReference = A327B82DC5D5A82A07FD56CF698530FB /* secp256k1_swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7CCD8AFB41855F80CA73D2C8ABC802C9 /* JOSESwift */ = {
@@ -2137,7 +2126,7 @@
 			);
 			name = JOSESwift;
 			productName = JOSESwift;
-			productReference = 84D2E53624850063818F6299973EE893 /* JOSESwift */;
+			productReference = 84D2E53624850063818F6299973EE893 /* JOSESwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */ = {
@@ -2155,7 +2144,7 @@
 			);
 			name = CryptoSwift;
 			productName = CryptoSwift;
-			productReference = F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */;
+			productReference = F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B840E7CF48F613DD27183A04DE29DB97 /* Pods-KPIC */ = {
@@ -2185,7 +2174,7 @@
 			);
 			name = "Pods-KPIC";
 			productName = Pods_KPIC;
-			productReference = 0A73D86D643730B6FD40FB3B1EC52766 /* Pods-KPIC */;
+			productReference = 0A73D86D643730B6FD40FB3B1EC52766 /* Pods_KPIC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CB787133776BA46B8F0205D0A5496C67 /* JWTsSwift */ = {
@@ -2204,7 +2193,7 @@
 			);
 			name = JWTsSwift;
 			productName = JWTsSwift;
-			productReference = 6E71D2EBEF08C3DE4495A72B7D4A08CA /* JWTsSwift */;
+			productReference = 6E71D2EBEF08C3DE4495A72B7D4A08CA /* JWTsSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF31B1E975742706D1B25720A30D27C1 /* KeepinCRUD */ = {
@@ -2244,7 +2233,7 @@
 			);
 			name = VerifiableSwift;
 			productName = VerifiableSwift;
-			productReference = 73118FC3970634E9529A43DE8C1E6E69 /* VerifiableSwift */;
+			productReference = 73118FC3970634E9529A43DE8C1E6E69 /* VerifiableSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F52E6DA0104A4F8C767EF42CAE3D09F4 /* MercariQRScanner */ = {
@@ -2262,7 +2251,7 @@
 			);
 			name = MercariQRScanner;
 			productName = MercariQRScanner;
-			productReference = 915361CF4F5BEB9ECA5F7A89DAE63096 /* MercariQRScanner */;
+			productReference = 915361CF4F5BEB9ECA5F7A89DAE63096 /* MercariQRScanner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -2272,7 +2261,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1320;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -2944,7 +2933,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/secp256k1_swift/secp256k1_swift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/secp256k1_swift/secp256k1_swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2979,7 +2968,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JOSESwift/JOSESwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JOSESwift/JOSESwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3015,7 +3004,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KPIC/Pods-KPIC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3053,7 +3042,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KPIC/Pods-KPIC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3088,7 +3077,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EthereumAddress/EthereumAddress-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EthereumAddress/EthereumAddress-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3124,7 +3113,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/VerifiableSwift/VerifiableSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/VerifiableSwift/VerifiableSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3158,7 +3147,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/secp256k1_swift/secp256k1_swift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/secp256k1_swift/secp256k1_swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3193,7 +3182,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SipHash/SipHash-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SipHash/SipHash-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3228,7 +3217,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MercariQRScanner/MercariQRScanner-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MercariQRScanner/MercariQRScanner-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3262,7 +3251,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CryptoSwift/CryptoSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3295,7 +3284,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftRLP/SwiftRLP-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftRLP/SwiftRLP-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3330,7 +3319,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SipHash/SipHash-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SipHash/SipHash-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3366,7 +3355,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/web3iOS/web3iOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/web3iOS/web3iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3435,7 +3424,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftRLP/SwiftRLP-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftRLP/SwiftRLP-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3470,7 +3459,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/web3iOS/web3iOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/web3iOS/web3iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3540,7 +3529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3567,7 +3556,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BigInt/BigInt-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3602,7 +3591,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/VerifiableSwift/VerifiableSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/VerifiableSwift/VerifiableSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3638,7 +3627,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JWTsSwift/JWTsSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JWTsSwift/JWTsSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3674,7 +3663,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JOSESwift/JOSESwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JOSESwift/JOSESwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3708,7 +3697,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BigInt/BigInt-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3742,7 +3731,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EthereumAddress/EthereumAddress-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EthereumAddress/EthereumAddress-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3777,7 +3766,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MercariQRScanner/MercariQRScanner-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MercariQRScanner/MercariQRScanner-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3850,7 +3839,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3879,7 +3868,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JWTsSwift/JWTsSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JWTsSwift/JWTsSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3948,7 +3937,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CryptoSwift/CryptoSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
